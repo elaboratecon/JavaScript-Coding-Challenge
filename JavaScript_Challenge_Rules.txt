@@ -1,0 +1,16 @@
+
+— Blogging Challenge Rules —
+
+Lorem Ipsum, Inc. is rebuilding their website.
+
+While the rest of the site’s down, they’d like to keep their blog up.
+
+Build a lightweight application that can display the blog posts.
+
+APPLICATION REQUIREMENTS:
+
+ - It must be built in a way that it can later be incorporated into the new site
+ - Make sure it’s responsive
+ - Provide the user with filtering/sorting options
+
+

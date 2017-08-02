@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lorem Ipsum Coding Challenge</title>
+  <meta http-equiv="Content-Language" content="en" />
+  <meta name="description" content="The Rabid Rabbit Blog" />
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- Isotope Library with imagesLoaded option -->
+  <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+  <script src="http://isotope.metafizzy.co/beta/isotope.pkgd.js"></script>
+
+  <!-- Reusable blogModule API -->
+  <script src="js/blogModule.js"></script>
+
+  <!-- Blog implementation options -->
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="img/Logo.png" class="logo" title="The Rabid Rabbit" alt="The Rabid Rabbit" />
+  </header>
+  <div class="main">
+    <section class="sortOptions">
+      <div id="sorts" class="btn-group">
+        <button class="btn btn-default sortBy" data-sort-value="date">Date</button>
+        <button class="btn btn-default sortBy" data-sort-value="author">Author</button>
+        <button class="btn btn-default sortBy" data-sort-value="views">Views</button>
+      </div>
+      <div id="direction" class="btn-group">
+        <button class="btn btn-default sortDirection" data-option-value="true"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></button>
+        <button class="btn btn-default sortDirection" data-option-value="false"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></button>
+      </div>
+      <input type="text" class="quicksearch" placeholder="Search" />
+    </section>
+    <div id="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "masonry" }'></div>
+  </div>
+  <footer>
+    <p>&copy; Copyright 2017 Rabid Rabbit Inc, All Rights Reservered.</p>
+  </footer>
+</body>
+</html>

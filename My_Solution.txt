@@ -1,0 +1,10 @@
+
+## My Solution ##
+
+I built an API using the Module Reveal JavaScript design pattern (blogModule.js).
+
+- I coded most of this in ES6. 
+- The optional Isotope JS library (enables search & sorting) requires jQuery as a dependancy.
+- If you choose not to use the library, the layout will fallback to using Flexbox CSS.
+
+app.js contains the setup instructions and outlines the API parameters.
